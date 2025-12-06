@@ -30,11 +30,12 @@ body {
 
 .page-header .contacts {
   color: #434455;
-  font-style: normal;
   font-size: 16px;
+  font-weight: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  font-style: normal;
 }
 
 .page-header .contacts:hover,
@@ -93,6 +94,8 @@ ol {
 
 .title-text h3 {
   font-size: 20px;
+  color: #2e2f42;
+  font-weight: 500;
 }
 
 .page-title .button:hover,
@@ -120,15 +123,14 @@ ol {
 
 .team-list li {
   background: #fff;
-  margin: 12px 0;
 }
+
 .main-page .item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  margin: 15px 0 5px;
 }
 
 .main-page .indent {
@@ -136,15 +138,30 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  margin: 0;
-  color: gray;
+  color: #434455;
 }
 
-.main-title h2 {
+.portfolio-section h2 {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
+}
+
+.portfolio-section h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.portfolio-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .page-footer {
@@ -153,5 +170,5 @@ ol {
 }
 
 .page-footer .logo {
-  color: #ffffff;
+  color: #f4f4fd;
 }
